@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --bg-color: #424874;
+    --primary-color: #F4EEFF;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+    font-size: 6em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 2opx;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/* MAIN HOME */
+
+.main-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1px;
+    margin-top: 3vh;
+
+}
+
+#menu-icons{
+    justify-content: center;
+    
+}
+
+#icon-1, #icon-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#icon-2{
+    margin-left: -29.5px;
+}
+
+p{
+    
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    font-size: 2em;
+}
+
+#icon{
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+#segunda-linha{
+    height: 1px;
+    margin-top: 1px;
+}
